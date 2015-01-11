@@ -1,8 +1,8 @@
 /* Website template by freewebsitetemplates.com */
 
 body {
-	background: url(../images/bg-body.gif) repeat center top;
-	color: #504e4f;/*807e7f 504e4f*/
+	background: url(../images/bg-body.png) repeat center top;
+	color: #ffffff;/*#504e4f;/*807e7f 504e4f*/
 	font-family: 'SortsMillGoudyRegular';
 	font-size: 14px;
 	margin: 0;
@@ -23,7 +23,7 @@ img#contact_img {
 }
 
 p a {
-	color: #504e4f; /*807e7f*/
+	color: #ffffff;/*#504e4f; /*807e7f*/
 }
 
 iframe {
@@ -51,17 +51,17 @@ iframe {
 }
 
 #page {
-	background: url(../images/top-bar.gif) repeat-x center top;
+	background: url(../images/top-bar.png) repeat-x center top;
 	width: 100%;
 }
 
 #arcadepage {
-	background: url(../images/top-bar.gif) repeat-x center top;
+	background: url(../images/top-bar.png) repeat-x center top;
 	width: 100%;
 }
 
 #arcadeheader {
-	background: url(../images/bg-header-expanded.jpg) no-repeat center top;
+	background: url(../images/bg-header-expanded.png) no-repeat center top;
 	height: 123px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -69,7 +69,7 @@ iframe {
 }
 
 #header {
-	background: url(../images/bg-header.jpg) no-repeat center top;
+	background: url(../images/bg-header.png) no-repeat center top;
 	height: 123px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -112,24 +112,27 @@ iframe {
 
 #arcadeheader ul li a,
 #header ul li a {
-	color: #105012; /*831a3b*/
+	color: #ffffff;/*#105012; /*831a3b*/
 	display: block;
 	line-height: 51px;
 	text-decoration: none;
 	text-transform: uppercase;
-	text-shadow: 0 1px #77df68; /*ff97b8*/
+	text-shadow: none;/*0 1px #77df68; /*ff97b8*/
 }
 
 #arcadeheader ul li.current a,
-#arcadeheader ul li.current a:hover,
-#header ul li.current a,
+#header ul li.current a{
+	color: #CC0000;
+}
+
+#arcadeheader ul a:hover,
 #header ul li a:hover {
-	color: #f5fff5;/*f5fff5*/
-	text-shadow: 0 1px #00a100; /*d5426f*/ /*7aff7a*/
+	color: #ff6600;/*f5fff5*/
+	text-shadow: none;/*0 1px #00a100; /*d5426f*/ /*7aff7a*/
 }
 
 #arcade {
-	background: url(../images/bg-page-expanded.jpg) repeat-y ;
+	background: url(../images/bg-page-expanded.png) repeat-y ;
     /*background-size: auto auto;*/
 	margin: -1px auto;
 	min-height: 800px;
@@ -139,7 +142,7 @@ iframe {
 }
 
 #arcade_theRoom {
-	background: url(../images/bg-page-expanded.jpg) repeat-y ;
+	background: url(../images/bg-page-expanded.png) repeat-y ;
     /*background-size: auto auto;*/
 	margin: -20px 133px;
 	min-height: 700px;
@@ -154,7 +157,7 @@ iframe {
 }
 
 #body {
-	background: url(../images/bg-page.gif) repeat-y;
+	background: url(../images/bg-page.png) repeat-y;
 	margin: -1px auto;
 	min-height: 1000px;
 	overflow: hidden;
@@ -293,14 +296,14 @@ iframe {
 }
 
 #body div#aside h4 {
-	background: url(../images/bg-content-heading2.jpg) no-repeat;
-	color: #fdfdfd;
+	background: url(../images/bg-content-heading.png) no-repeat;/*This one was grey*/
+	color: #ffffff;/*#fdfdfd;*/
 	font-size: 20px;
 	font-weight: normal;
 	height: 46px;
 	line-height: 39px;
 	margin: 0px 0 18px;
-	text-shadow: 0 1px #9e9e9e;
+	text-shadow: none;/*0 1px #9e9e9e;*/
 	width: 643px;
 }
 
@@ -393,20 +396,20 @@ iframe {
 }*/
 
 #body div#aside h2 {
-	background: url(../images/bg-content-heading.jpg) no-repeat;
-	color: #fcfffc;/*fff9fc*/
+	background: url(../images/bg-content-heading.png) no-repeat;
+	color: #ffffff;/*#fcfffc;/*fff9fc*/
 	font-size: 20px;
 	font-weight: normal;
 	height: 46px;
 	line-height: 39px;
 	margin: 0 0 18px;
-	text-shadow: 0 1px #58a858; /*e68ca8*/
+	text-shadow:none;/* 0 1px #58a858; /*e68ca8*/
 	width: 643px;
 }
 
 
 #body div#aside h2 a {
-	color: #f9fffc;/*fff9fc*/
+	color: #ffffff;/*#f9fffc;/*fff9fc*/
 	display: inline-block;
 	text-decoration: none;
 }
@@ -418,11 +421,11 @@ iframe {
 #body div#aside div.section div a.back:hover,
 #body div#aside div.section ul li a:hover,
 #body div#aside div#section ul li div h5 a:hover {
-	color: #1a631a;/*831A3B*/
+	color: #ff6600;/*#1a631a;/*831A3B*/
 }
 
 #body div#aside ul li a.readmore {
-	color: #59cc80; /*cc5980*/
+	color: #cc0000;/*#59cc80; /*cc5980*/
 	font-family: 'SortsMillGoudyItalic';
 	display: inline-block;
 	padding: 0 0 50px 35px;
@@ -518,14 +521,14 @@ iframe {
 
 #body div#aside div#paging span a,
 #body div#aside div#paging ul li a {
-	color: #bfbdbe;
+	color: #ffffff;/*#bfbdbe;*/
 	display: inline;
 	text-decoration: none;
 }
 
 #body div#aside div#paging span a:hover,
 #body div#aside div#paging ul li a:hover {
-	color: #807E7F;
+	color: #ff6600;/*#807E7F;*/
 }
 
 #body div#aside div#paging ul li a:hover {
@@ -622,14 +625,14 @@ iframe {
 
 #body div#sidebar div div h3 {
 	background: #008002 url(../images/bg-sidebar-heading.gif) no-repeat right top;/*ee7199*/
-	color: #fcfffc; /*fffafc*/
+	color: #ffffff;/*#fcfffc; /*fffafc*/
 	font-size: 18px;
 	font-weight: normal;
 	height: 28px;
 	line-height: 33px;
 	margin: 0;
 	text-align: center;
-	text-shadow: 0 1px #58a858;
+	text-shadow: none;/*0 1px #58a858;*/
 	width: 215px;
 }
 
@@ -651,9 +654,9 @@ iframe {
 }*/
 
 #body div#sidebar div div ul li a {
-	color: #105012;/*533841*//**/
+	color: #ffffff;/*#105012;/*533841*//**/
 	text-decoration: none;
-	text-shadow: 0 1px #c0d0c0; /*fae9ef*/
+	text-shadow:none;/* 0 1px #c0d0c0; /*fae9ef*/
 }
 
 #body div#sidebar div div ul li a:hover {
