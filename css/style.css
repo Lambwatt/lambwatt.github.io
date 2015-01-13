@@ -208,7 +208,7 @@ iframe {
     background: none;
     margin-left: 25px;
     float: left;
-    width: 135px;
+    /*width: 135px;*/
 }
 
 #body div#aside div#games p{
@@ -236,7 +236,7 @@ iframe {
 }
 
 #body div#aside div#section ul {
-
+	list-style: none;
 }
 
 #body div#aside div#section ul li {
@@ -270,13 +270,32 @@ iframe {
 	width: 430px;
 }
 
-#body div#aside div#section ul li div h5 {
+#body div#aside div#games h5/*,
+#body div#aside div#section ul li div h5*/{
 	font-size: 18px;
 	font-weight: normal;
 	margin: 0 0 5px;
+	
+
 }
 
-#body div#aside div#section ul li div h5 a {
+#body div#aside div#games h5 a/*,
+#body div#aside div#section ul li div h5 a*/ {
+	color: #CC0000;/*#5acd5a;/*cd5a81*/
+	margin-left: 25px;
+}
+
+#body div#aside  h5/*,
+#body div#aside div#section ul li div h5*/{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 0 5px;
+
+
+}
+
+#body div#aside  h5 a/*,
+#body div#aside div#section ul li div h5 a*/ {
 	color: #CC0000;/*#5acd5a;/*cd5a81*/
 }
 
@@ -332,7 +351,7 @@ iframe {
 }
 
 #body div#aside span {
-	background: url(../images/separator.gif) no-repeat;
+	background: url(../images/separator.png) no-repeat;
 	display: block;
 	height: 2px;
 	margin: 0 0 23px 20px;
@@ -350,7 +369,7 @@ iframe {
 }
 
 #body div#aside ul li span {
-	background: url(../images/separator.gif) no-repeat;
+	background: url(../images/separator.png) no-repeat;
 	bottom: 0;
 	position: absolute;
 	right: 0;
@@ -660,7 +679,8 @@ iframe {
 }
 
 #body div#sidebar div div ul li a:hover {
-	text-decoration: underline;
+	color:#ff6600;
+	/*text-decoration: underline;*/
 }
 
 #body div#sidebar div div ul li ul {
