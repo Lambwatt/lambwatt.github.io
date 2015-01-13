@@ -257,7 +257,7 @@ iframe {
 
 #body div#aside div#games img,
 #body div#aside div#section ul li span img {
-	border: 1px solid #BEC3BE;/*C2C3BE*/
+	border: 1px solid #CC0000;/*#BEC3BE;/*C2C3BE*/
     height: 145px;
     width:  145px;
 }
@@ -277,7 +277,7 @@ iframe {
 }
 
 #body div#aside div#section ul li div h5 a {
-	color: #5acd5a;/*cd5a81*/
+	color: #CC0000;/*#5acd5a;/*cd5a81*/
 }
 
 #body div#aside div#section ul li div p {
@@ -372,7 +372,7 @@ iframe {
 
 #body div#aside ul li ul li p{
     
-    background: url(../images/arrow-grey.jpg) no-repeat left 9px;
+    background: url(../images/arrow.png) no-repeat left 9px;
     display: block;
 	line-height: 24px;
 	padding: 0 0 0 15px;
@@ -565,7 +565,7 @@ iframe {
 
 
 #body div#aside div.section ul li img {
-	border: 1px solid #c2c3be;
+	border: 1px solid #CC0000;/*#c2c3be;*/
 	margin: 0 0 10px;
 }
 
@@ -612,19 +612,19 @@ iframe {
 }
 
 #body div#sidebar div {
-	background: url(../images/bg-sidebar-bottom.jpg) no-repeat center bottom;
+	/*background: url(../images/bg-sidebar-bottom.jpg) no-repeat center bottom;*/
 	padding: 0 0 50px;
 	width: 246px;
 }
 
 #body div#sidebar div div {
-	background: #95ff95; /*e9dadf*/
+	background: #0000000;/*#95ff95; /*e9dadf*/
 	padding: 13px 13px 0;
 	width: 214px;
 }
 
 #body div#sidebar div div h3 {
-	background: #008002 url(../images/bg-sidebar-heading.gif) no-repeat right top;/*ee7199*/
+	background: #660099; /*url(../images/bg-sidebar-heading.png) no-repeat right top;/*ee7199*/
 	color: #ffffff;/*#fcfffc; /*fffafc*/
 	font-size: 18px;
 	font-weight: normal;
@@ -643,7 +643,7 @@ iframe {
 }
 
 #body div#sidebar div div ul li {
-	background: url(../images/arrow.gif) no-repeat left 9px;
+	background: url(../images/arrow.png) no-repeat left 9px;
 	display: block;
 	line-height: 24px;
 	padding: 0 0 0 15px;
