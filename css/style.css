@@ -311,7 +311,7 @@ iframe {
 #body div#aside h1 {
 	font-size: 30px;
 	font-weight: normal;
-	margin: 25px 0 10px;
+	margin: 0px 0 10px;
 }
 
 #body div#aside h4 {
@@ -637,8 +637,8 @@ iframe {
 }
 
 #body div#sidebar div div {
-	background: #0000000;/*#95ff95; /*e9dadf*/
-	padding: 13px 13px 0;
+	/*background: #0000000;/*#95ff95; /*e9dadf*/
+	/*padding: 13px 13px 0;*/
 	width: 214px;
 }
 
