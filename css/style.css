@@ -1,12 +1,12 @@
 /* Website template by freewebsitetemplates.com */
 
 body {
-	background: url(../images/bg-body.png) repeat center top;
-	color: #ffffff;/*#504e4f;/*807e7f 504e4f*/
-	font-family: 'SortsMillGoudyRegular';
+	/*background: url(../images/bg-body.png) repeat center top;*/
+	color: #000000;/*#504e4f;/*807e7f 504e4f*/
+	font-family: 'Helvetica';
 	font-size: 14px;
 	margin: 0;
-	min-width: 950px;
+	min-width: 1000px;
 	padding: 0;
 }
 
@@ -23,7 +23,7 @@ img#contact_img {
 }
 
 p a {
-	color: #ffffff;/*#504e4f; /*807e7f*/
+	color: #000000;/*#ffffff;/*#504e4f; /*807e7f*/
 }
 
 iframe {
@@ -51,17 +51,17 @@ iframe {
 }
 
 #page {
-	background: url(../images/top-bar.png) repeat-x center top;
+	/*background: url(../images/top-bar.png) repeat-x center top;*/
 	width: 100%;
 }
 
 #arcadepage {
-	background: url(../images/top-bar.png) repeat-x center top;
+	/*background: url(../images/top-bar.png) repeat-x center top;*/
 	width: 100%;
 }
 
 #arcadeheader {
-	background: url(../images/bg-header-expanded.png) no-repeat center top;
+	background: #e2e2e2;/*url(../images/bg-header-expanded.png) no-repeat center top;*/
 	height: 123px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -69,11 +69,11 @@ iframe {
 }
 
 #header {
-	background: url(../images/bg-header.png) no-repeat center top;
+	background: #e2e2e2;/* url(../images/bg-header.png) no-repeat center top;*/
 	height: 123px;
 	margin: 0 auto;
 	overflow: hidden;
-	width: 950px;
+	width: 1000px;
 }
 
 #arcadeheader div,
@@ -112,7 +112,7 @@ iframe {
 
 #arcadeheader ul li a,
 #header ul li a {
-	color: #ffffff;/*#105012; /*831a3b*/
+	color: #000000;/*#ffffff;/*#105012; /*831a3b*/
 	display: block;
 	line-height: 51px;
 	text-decoration: none;
@@ -122,17 +122,17 @@ iframe {
 
 #arcadeheader ul li.current a,
 #header ul li.current a{
-	color: #CC0000;
+	color: #000000;/*#CC0000;*/
 }
 
 #arcadeheader ul a:hover,
 #header ul li a:hover {
-	color: #ff6600;/*f5fff5*/
+	color: #660066;/*#ff6600;/*f5fff5*/
 	text-shadow: none;/*0 1px #00a100; /*d5426f*/ /*7aff7a*/
 }
 
 #arcade {
-	background: url(../images/bg-page-expanded.png) repeat-y ;
+	background: #e2e2e2;/* url(../images/bg-page-expanded.png) repeat-y ;/
     /*background-size: auto auto;*/
 	margin: -1px auto;
 	min-height: 800px;
@@ -142,7 +142,7 @@ iframe {
 }
 
 #arcade_theRoom {
-	background: url(../images/bg-page-expanded.png) repeat-y ;
+	background:  #e2e2e2;/*url(../images/bg-page-expanded.png) repeat-y ;*?
     /*background-size: auto auto;*/
 	margin: -20px 133px;
 	min-height: 700px;
@@ -157,26 +157,26 @@ iframe {
 }
 
 #body {
-	background: url(../images/bg-page.png) repeat-y;
+	/*background: url(../images/bg-page.png) repeat-y;*/
 	margin: -1px auto;
 	min-height: 1000px;
 	overflow: hidden;
-	padding: 22px 25px 40px 0;
-	width: 925px;
+	padding: 32px 0px 0px 0;
+	width: 1000px;
 }
 
 
 #body div#aside {
 	float: left;
 	position: relative;
-	width: 665px;
+	width: 600px;
 }
 
 #body div#aside div {
-	/*background: url(../images/frame.gif) no-repeat;*/
+	background:  #660066;/*url(../images/frame.gif) no-repeat;*/
 	height: 291px;
 	margin: 0 0 0 35px;
-	width: 608px;
+	width: 600px;
 }
 
 #body div#aside div#games{
@@ -201,7 +201,7 @@ iframe {
     /*background: none;*/
     margin-left: 0;
     float: none;
-    width: auto;
+    width: 600px;
 }
 
 #body div#aside div#games a{
@@ -216,8 +216,8 @@ iframe {
 }
 
 #body div#aside div#games ul li{
-    overflow:hidden;
-    /*height:300;*/
+    /*overflow:hidden;*/
+    height:250px;
 }
 
 #body div#aside div#games a.readmore{
@@ -257,7 +257,7 @@ iframe {
 
 #body div#aside div#games img,
 #body div#aside div#section ul li span img {
-	border: 1px solid #CC0000;/*#BEC3BE;/*C2C3BE*/
+	border: 1px solid #000000;/*#CC0000;/*#BEC3BE;/*C2C3BE*/
     height: 145px;
     width:  145px;
 }
@@ -281,9 +281,12 @@ iframe {
 
 #body div#aside div#games h5 a/*,
 #body div#aside div#section ul li div h5 a*/ {
-	color: #CC0000;/*#5acd5a;/*cd5a81*/
+	color: #000000;/*#CC0000;/*#5acd5a;/*cd5a81*/
 	margin-left: 25px;
+	text-decoration: none;
 }
+
+
 
 #body div#aside  h5/*,
 #body div#aside div#section ul li div h5*/{
@@ -291,13 +294,14 @@ iframe {
 	font-weight: normal;
 	margin: 0 0 5px;
 
-
 }
 
 #body div#aside  h5 a/*,
 #body div#aside div#section ul li div h5 a*/ {
-	color: #CC0000;/*#5acd5a;/*cd5a81*/
+	color: #000000;/*#CC0000;/*#5acd5a;/*cd5a81*/
 }
+
+
 
 #body div#aside div#section ul li div p {
 	margin: 0;
@@ -315,25 +319,26 @@ iframe {
 }
 
 #body div#aside h4 {
-	background: url(../images/bg-content-heading.png) no-repeat;/*This one was grey*/
-	color: #ffffff;/*#fdfdfd;*/
+	background:  #e2e2e2;/*url(../images/bg-content-heading.png) no-repeat;/*This one was grey*/
+	color: #000000;/*#ffffff;/*#fdfdfd;*/
 	font-size: 20px;
 	font-weight: normal;
 	height: 46px;
 	line-height: 39px;
 	margin: 0px 0 18px;
 	text-shadow: none;/*0 1px #9e9e9e;*/
-	width: 643px;
+	width: 600px;
 }
 
 #body div#aside h3 {
 	font-size: 20px;
 	font-weight: normal;
 	margin: 20px 0 0;
+	width: 600px;
 }
 
 #arcade_theRoom h2{
-	padding: 0px 22px 0px 35px;
+	padding: 0px 22px 0px 22px;
 }
 #arcade h2,
 #arcade p,
@@ -342,7 +347,7 @@ iframe {
 #body div#aside h4,
 #body div#aside h3,
 #body div#aside h2 {
-	padding: 0 22px 0 35px;
+	padding: 0 22px 0 22px;
 }
 
 #body div#aside p {
@@ -351,11 +356,11 @@ iframe {
 }
 
 #body div#aside span {
-	background: url(../images/separator.png) no-repeat;
+	/*background: url(../images/separator.png) no-repeat;*/
 	display: block;
 	height: 2px;
 	margin: 0 0 23px 20px;
-	width: 646px;
+	width: 600px;
 }
 
 #body div#aside ul {
@@ -369,7 +374,7 @@ iframe {
 }
 
 #body div#aside ul li span {
-	background: url(../images/separator.png) no-repeat;
+	/*background: url(../images/separator.png) no-repeat;*/
 	bottom: 0;
 	position: absolute;
 	right: 0;
@@ -391,7 +396,7 @@ iframe {
 
 #body div#aside ul li ul li p{
     
-    background: url(../images/arrow.png) no-repeat left 9px;
+    /*background: url(../images/arrow.png) no-repeat left 9px;*/
     display: block;
 	line-height: 24px;
 	padding: 0 0 0 15px;
@@ -415,20 +420,20 @@ iframe {
 }*/
 
 #body div#aside h2 {
-	background: url(../images/bg-content-heading.png) no-repeat;
-	color: #ffffff;/*#fcfffc;/*fff9fc*/
+	background:  #e2e2e2;/*url(../images/bg-content-heading.png) no-repeat;*/
+	color: #000000;/*#ffffff;/*#fcfffc;/*fff9fc*/
 	font-size: 20px;
 	font-weight: normal;
 	height: 46px;
 	line-height: 39px;
 	margin: 0 0 18px;
 	text-shadow:none;/* 0 1px #58a858; /*e68ca8*/
-	width: 643px;
+	width: 600px;
 }
 
 
 #body div#aside h2 a {
-	color: #ffffff;/*#f9fffc;/*fff9fc*/
+	color: #000000;/*#ffffff;/*#f9fffc;/*fff9fc*/
 	display: inline-block;
 	text-decoration: none;
 }
@@ -439,13 +444,15 @@ iframe {
 #body div#aside div.section div a:hover,
 #body div#aside div.section div a.back:hover,
 #body div#aside div.section ul li a:hover,
-#body div#aside div#section ul li div h5 a:hover {
-	color: #ff6600;/*#1a631a;/*831A3B*/
+#body div#aside div#section ul li div h5 a:hover,
+#body div#aside  h5 a:hover,
+#body div#aside div#games  h5 a:hover {
+	color: #660066;/*#ff6600;/*#1a631a;/*831A3B*/
 }
 
 #body div#aside ul li a.readmore {
-	color: #cc0000;/*#59cc80; /*cc5980*/
-	font-family: 'SortsMillGoudyItalic';
+	color: #000000;/*#cc0000;/*#59cc80; /*cc5980*/
+	font-family: 'Helvetica';
 	display: inline-block;
 	padding: 0 0 50px 35px;
 	text-decoration: none;
@@ -540,18 +547,18 @@ iframe {
 
 #body div#aside div#paging span a,
 #body div#aside div#paging ul li a {
-	color: #ffffff;/*#bfbdbe;*/
+	color: #000000;/*#ffffff;/*#bfbdbe;*/
 	display: inline;
 	text-decoration: none;
 }
 
 #body div#aside div#paging span a:hover,
 #body div#aside div#paging ul li a:hover {
-	color: #ff6600;/*#807E7F;*/
+	color: #660066;/*#ff6600;/*#807E7F;*/
 }
 
 #body div#aside div#paging ul li a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 #body div#aside div#paging ul {
@@ -584,7 +591,7 @@ iframe {
 
 
 #body div#aside div.section ul li img {
-	border: 1px solid #CC0000;/*#c2c3be;*/
+	border: 1px solid #660066;/*#CC0000;/*#c2c3be;*/
 	margin: 0 0 10px;
 }
 
@@ -609,7 +616,7 @@ iframe {
 	background: #e05b86;
 	color: #f1d6dd;
 	display: inline-block;
-	font-family: 'RalewayThin';
+	font-family: 'Helvetica';
 	font-size: 18px;
 	height: 30px;
 	line-height: 30px;
@@ -627,24 +634,24 @@ iframe {
 
 #body div#sidebar {	
 	float: right;
-	width: 240px;
+	width: 300px;
 }
 
 #body div#sidebar div {
-	/*background: url(../images/bg-sidebar-bottom.jpg) no-repeat center bottom;*/
+	background:  #e2e2e2;/*url(../images/bg-sidebar-bottom.jpg) no-repeat center bottom;*/
 	padding: 0 0 50px;
-	width: 246px;
+	/*width: 246px;*/
 }
 
 #body div#sidebar div div {
 	/*background: #0000000;/*#95ff95; /*e9dadf*/
 	/*padding: 13px 13px 0;*/
-	width: 214px;
+	/*width: 214px;*/
 }
 
 #body div#sidebar div div h3 {
-	background: #660099; /*url(../images/bg-sidebar-heading.png) no-repeat right top;/*ee7199*/
-	color: #ffffff;/*#fcfffc; /*fffafc*/
+	background:  #c6c6c6;/*#660099; /*url(../images/bg-sidebar-heading.png) no-repeat right top;/*ee7199*/
+	color: #000000;/*#ffffff;/*#fcfffc; /*fffafc*/
 	font-size: 18px;
 	font-weight: normal;
 	height: 28px;
@@ -652,7 +659,7 @@ iframe {
 	margin: 0;
 	text-align: center;
 	text-shadow: none;/*0 1px #58a858;*/
-	width: 215px;
+	/*width: 215px;*/
 }
 
 #body div#sidebar div div ul {
@@ -662,7 +669,7 @@ iframe {
 }
 
 #body div#sidebar div div ul li {
-	background: url(../images/arrow.png) no-repeat left 9px;
+	/*background: url(../images/arrow.png) no-repeat left 9px;*/
 	display: block;
 	line-height: 24px;
 	padding: 0 0 0 15px;
@@ -673,14 +680,14 @@ iframe {
 }*/
 
 #body div#sidebar div div ul li a {
-	color: #CC0000;/*#105012;/*533841*//**/
+	color: #000000;/*#CC0000;/*#105012;/*533841*//**/
 	text-decoration: none;
 	text-shadow:none;/* 0 1px #c0d0c0; /*fae9ef*/
 }
 
 #body div#sidebar div div ul li a:hover {
-	color:#ff6600;
-	/*text-decoration: underline;*/
+	color:#660066;/*#ff6600;*/
+	text-decoration: none;
 }
 
 #body div#sidebar div div ul li ul {
@@ -714,7 +721,7 @@ iframe {
 }
 
 #body div#sidebar form input.searchbtn {	
-	background: url(../images/icon.gif) no-repeat 0 -208px;
+	/*background: url(../images/icon.gif) no-repeat 0 -208px;*/
 	border: 0;
 	cursor: pointer;
 	float: left;
@@ -757,7 +764,7 @@ iframe {
 }
 
 #footer {
-	background: #b74b6d url(../images/bg-footer.gif) repeat-x;
+	/*background: #b74b6d url(../images/bg-footer.gif) repeat-x;*?
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	line-height: 60px;
