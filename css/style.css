@@ -16,10 +16,14 @@ a {
 
 img {
 	border: 0;
+	width: 40px;
+	height: 40px;
 }
 
-img#contact_img {
+#contact_img {
     margin-left:-5px;
+    width: 131px;
+	height: 18px;
 }
 
 p a {
@@ -76,6 +80,13 @@ iframe {
 	width: 1000px;
 }
 
+p.mp {
+margin-top:50px;
+font-size:28px;
+font-weight:bold;
+color:#9900CC;
+}
+
 #arcadeheader div,
 #header div {
 	float: left;
@@ -127,7 +138,7 @@ iframe {
 
 #arcadeheader ul a:hover,
 #header ul li a:hover {
-	color: #660066;/*#ff6600;/*f5fff5*/
+	color: #9900CC;/*#ff6600;/*f5fff5*/
 	text-shadow: none;/*0 1px #00a100; /*d5426f*/ /*7aff7a*/
 }
 
@@ -159,7 +170,7 @@ iframe {
 #body {
 	/*background: url(../images/bg-page.png) repeat-y;*/
 	margin: -1px auto;
-	min-height: 1000px;
+	min-height: 100px;
 	overflow: hidden;
 	padding: 32px 0px 0px 0;
 	width: 1000px;
@@ -173,7 +184,7 @@ iframe {
 }
 
 #body div#aside div {
-	background:  #660066;/*url(../images/frame.gif) no-repeat;*/
+	background:  #9900CC;/*url(../images/frame.gif) no-repeat;*/
 	height: 291px;
 	margin: 0 0 0 35px;
 	width: 600px;
@@ -425,7 +436,7 @@ iframe {
 	font-size: 20px;
 	font-weight: normal;
 	height: 46px;
-	line-height: 39px;
+	line-height: 49px;
 	margin: 0 0 18px;
 	text-shadow:none;/* 0 1px #58a858; /*e68ca8*/
 	width: 600px;
@@ -438,6 +449,7 @@ iframe {
 	text-decoration: none;
 }
 
+a:hover,
 #body div#aside ul li h2 a:hover,
 #body div#aside ul li a.readmore:hover,
 #body div#sidebar div h3 a:hover,
@@ -447,7 +459,7 @@ iframe {
 #body div#aside div#section ul li div h5 a:hover,
 #body div#aside  h5 a:hover,
 #body div#aside div#games  h5 a:hover {
-	color: #660066;/*#ff6600;/*#1a631a;/*831A3B*/
+	color: #9900CC;/*#ff6600;/*#1a631a;/*831A3B*/
 }
 
 #body div#aside ul li a.readmore {
@@ -554,7 +566,7 @@ iframe {
 
 #body div#aside div#paging span a:hover,
 #body div#aside div#paging ul li a:hover {
-	color: #660066;/*#ff6600;/*#807E7F;*/
+	color: #9900CC;/*#ff6600;/*#807E7F;*/
 }
 
 #body div#aside div#paging ul li a:hover {
@@ -591,7 +603,7 @@ iframe {
 
 
 #body div#aside div.section ul li img {
-	border: 1px solid #660066;/*#CC0000;/*#c2c3be;*/
+	border: 1px solid #9900CC;/*#CC0000;/*#c2c3be;*/
 	margin: 0 0 10px;
 }
 
@@ -654,7 +666,6 @@ iframe {
 	color: #000000;/*#ffffff;/*#fcfffc; /*fffafc*/
 	font-size: 18px;
 	font-weight: normal;
-	height: 28px;
 	line-height: 33px;
 	margin: 0;
 	text-align: center;
@@ -686,7 +697,7 @@ iframe {
 }
 
 #body div#sidebar div div ul li a:hover {
-	color:#660066;/*#ff6600;*/
+	color:#9900CC;/*#ff6600;*/
 	text-decoration: none;
 }
 
