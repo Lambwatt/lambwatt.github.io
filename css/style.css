@@ -62,6 +62,14 @@ iframe {
     /*-webkit-transform:scale(0.5);-moz-transform-scale(0.5);*/
 }
 
+#iframe_deep {
+    display: block;
+    width: 1050px;
+    height: 550px;
+    margin: 0 23px;
+    /*-webkit-transform:scale(0.5);-moz-transform-scale(0.5);*/
+}
+
 #iframe_soup {
     display: block;
     width: 1000px;
